@@ -2,7 +2,6 @@
   "name": "dev-it-portfoliio-dashboard",
   "version": "1.0.0",
   "description": "社内向けシステム鳥瞰図・ダッシュボードプラットフォーム",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --minify",

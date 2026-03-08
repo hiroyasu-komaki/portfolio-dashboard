@@ -8,6 +8,23 @@
 
 ITポートフォリオの可視化や、システム構成・プロジェクトの一覧表示など、社内で利用するダッシュボードの試作・練習を行っています。
 
+## フォルダ構成
+
+```
+portfolio-dashboard/
+├── index.html          # トップページ
+├── pages/              # 各ビューのHTML（ITポートフォリオ・プロジェクト・アプリケーション層）
+├── js/                 # ページ用スクリプト
+├── config/             # 設定（config.js, config.yaml, i18n.js）
+├── data/               # 表示用JSONデータ
+├── assets/css/         # Tailwind 入力 (input.css) とビルド出力 (output.css)
+├── docs/               # ドキュメント（依存関係など）
+├── tailwind.config.js
+└── package.json
+```
+
+※ ソース間の依存関係は [docs/DEPENDENCIES.md](docs/DEPENDENCIES.md) を参照してください。
+
 ## 免責事項
 
 - **表示内容の正確性**: 本リポジトリで公開している表示内容は、設定データ等に基づいて作成したものであり、その正確性・完全性については一切保証いたしません。
@@ -20,9 +37,9 @@ GitHub Pages で公開している場合は、[こちら](https://hiroyasu-komak
 | ファイル | 内容 |
 |---------|------|
 | `index.html` | トップ（ダッシュボード入口） |
-| `html/it_portfolio_dashboard.html` | ITポートフォリオダッシュボード |
-| `html/project_view.html` | プロジェクトビュー |
-| `html/application_layer_view.html` | アプリケーション層ビュー |
+| `pages/it_portfolio_dashboard.html` | ITポートフォリオダッシュボード |
+| `pages/project_view.html` | プロジェクトビュー |
+| `pages/application_layer_view.html` | アプリケーション層ビュー |
 
 ## ライセンス
 
